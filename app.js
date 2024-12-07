@@ -2,7 +2,7 @@ const express = require('express');
 const predictRoutes = require('./routes/predictRoutes');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 const cors = require('cors');
 
